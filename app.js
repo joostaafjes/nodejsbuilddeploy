@@ -18,7 +18,7 @@ app.set('view engine', 'jade');
 
 app.post('/catch', function(request, response){
   var body = request.body;
-  console.log("Received: ", body);
+  console.log("Received test: ", body);
   response.sendStatus(200);
 });
 
