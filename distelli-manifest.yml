@@ -6,12 +6,12 @@ joost/nodejsbuilddeploy:
   PreRelease:
     - echo "---Beginning PreRelease---"
     - echo "--Installing build dependencies--"
-    - echo "-Updating apt-get-"
-    - sudo apt-get -y update
-    - echo "-Installing nodejs-"
-    - sudo apt-get -y install nodejs
-    - echo "-Installing npm-"
-    - sudo apt-get -y install npm
+#    - echo "-Updating apt-get-"
+#    - sudo apt-get -y update
+#    - echo "-Installing nodejs-"
+#    - sudo apt-get -y install nodejs
+#    - echo "-Installing npm-"
+#    - sudo apt-get -y install npm
     - echo "--Building--"
     - sudo npm install
     - echo "--Testing--"
